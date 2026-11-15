@@ -8,7 +8,7 @@ Requires RimWorld 1.7, [Harmony](https://steamcommunity.com/sharedfiles/filedeta
 
 ## Build, test, package (source checkout only)
 
-These commands are for a full source checkout, not for the distributed candidate ZIP. The ZIP intentionally does not contain source, tests, or packaging tools. The planned repository URL is https://github.com/rabiosus/auto-blink-caraven-speed (planned, not confirmed live); obtain a source checkout from the project maintainer when available.
+These commands are for a full source checkout, not for the distributed candidate ZIP. The ZIP intentionally does not contain source, tests, or packaging tools. Source: https://github.com/ErtzFiend/rimworld-auto-blink-caraven-speed. The [candidate ZIP](https://github.com/ErtzFiend/rimworld-auto-blink-caraven-speed/raw/refs/heads/main/dist/Auto-Blink-Caraven-Speed-CANDIDATE.zip) is experimental and has not been verified in game.
 
 Use the .NET 10 SDK and obtain your own compatible game and mod references; they are not redistributed here. In the source checkout, place `Assembly-CSharp.dll`, `RimWorld.dll`, `UnityStubs.dll`, `0Harmony.dll`, and `AutoBlink.dll` in sibling `../auto-blink-caraven-speed-refs`.
 
