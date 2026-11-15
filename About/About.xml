@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Auto-Blink Caraven Speed</name>
+  <author>ErtzFiend</author>
+  <packageId>ertzfiend.autoblinkcaravenspeed</packageId>
+  <supportedVersions><li>1.7</li></supportedVersions>
+  <modDependencies>
+    <li><packageId>brrainz.harmony</packageId><displayName>Harmony</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl></li>
+    <li><packageId>rabiosus.autoblink</packageId><displayName>AutoBlink</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/3493889625</steamWorkshopUrl></li>
+  </modDependencies>
+  <loadAfter><li>brrainz.harmony</li><li>rabiosus.autoblink</li></loadAfter>
+  <description>Experimental candidate, not verified in game. When all walking caravan members have an active profile-bearing AutoBlink source, travel time is multiplied by 0.001, rounded and clamped to one tick. Capability is not a check of current blink permission or costs. Includes formation preview. Requires Harmony and AutoBlink.</description>
+</ModMetaData>

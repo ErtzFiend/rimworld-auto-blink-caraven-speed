@@ -1,0 +1,17 @@
+# Build intermediates and local evidence
+**/bin/
+**/obj/
+1.7/Assemblies/*.pdb
+1.7/Assemblies/*.deps.json
+evidence/
+# Proprietary, local references and decompilation must never be tracked
+refs/
+references/
+**/refs/
+**/references/
+**/decompiled/
+**/decompilation/
+*.decompiled.cs
+# Generated candidate archives
+*.zip
+# The mod's own 1.7/Assemblies/AutoBlinkCaravenSpeed.dll is intentionally retained.
